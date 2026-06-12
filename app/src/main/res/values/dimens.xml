@@ -20,20 +20,26 @@
         Add the android:background="@color/colorAlphaWhite" in layout ( RelativeLayout ) to help the adjusts
     -->
 
+    <!--
+        Scaled for Samsung Galaxy S25+ at FHD+ screen resolution setting
+        Landscape: 2340 x 1080 (width scaled from 1920->2340, height unchanged at 1080)
+        If your phone is set to WQHD+ (3120 x 1440), these will be off and need re-scaling/recalibration.
+    -->
+
     <!-- Board -->
-    <dimen name="boardWidth" tools:ignore="PxUsage">1620px</dimen>
+    <dimen name="boardWidth" tools:ignore="PxUsage">1974px</dimen>
     <dimen name="boardHeight" tools:ignore="PxUsage">897px</dimen>
     <dimen name="boardMarginBottom" tools:ignore="PxUsage">0.0099px</dimen>
 
     <!-- Canvas -->
-    <dimen name="canvasWidth" tools:ignore="PxUsage">1458px</dimen>
+    <dimen name="canvasWidth" tools:ignore="PxUsage">1776px</dimen>
     <dimen name="canvasHeight" tools:ignore="PxUsage">731px</dimen>
     <dimen name="canvasMarginTop" tools:ignore="PxUsage">82px</dimen>
 
     <!-- Buttons -->
-    <dimen name="buttonWidth" tools:ignore="PxUsage">280px</dimen>
+    <dimen name="buttonWidth" tools:ignore="PxUsage">341px</dimen>
     <dimen name="buttonHeight" tools:ignore="PxUsage">75px</dimen>
-    <dimen name="buttonNormalMarginStart" tools:ignore="PxUsage">175px</dimen>
-    <dimen name="buttonCloseMarginEnd" tools:ignore="PxUsage">170px</dimen>
-    <dimen name="buttonTrickshotSecondLineMarginEnd" tools:ignore="PxUsage">170px</dimen>
+    <dimen name="buttonNormalMarginStart" tools:ignore="PxUsage">213px</dimen>
+    <dimen name="buttonCloseMarginEnd" tools:ignore="PxUsage">207px</dimen>
+    <dimen name="buttonTrickshotSecondLineMarginEnd" tools:ignore="PxUsage">207px</dimen>
 </resources>
